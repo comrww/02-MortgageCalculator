@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mortgage Calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+	<header>
+		<h1 class="heading">Mortgage Calculator</h1>
+	</header>
+
+		<span class="flex-container">
+			<form>
+			<div class="flex-item">
+				<label>Loan Balance (USD)</label>
+				<input type="number" name="loanBalance" id="loanBalance">
+			</div>
+			<div class="flex-item">
+				<label>Interest Rate (APR)</label>
+				<input type="number" name="interestRate" id="interestRate">
+			</div>
+			<div class="flex-item">
+				<label>Term (years)</label>
+				<input type="number" name="loanTerm" id="loanTerm">
+			</div>
+			<div class="flex-item">
+				<label>Period</label>
+				<select id="period">
+					<option value="12">Monthly</option>
+					<option value="6">Bi-Monthly</option>
+				</select>
+			</div>
+				<button type="button" class="flex-item" id="calculate">Calculate</button>
+				<p class="heading" id="answerArea">-</p>
+			</form>
+				<script src="bower_components/jquery/dist/jquery.js" 
+				type="text/javascript"></script>
+				<script src="index.js" type="text/javascript"></script>
+		</span>
+	<body>
+				
+	</body>
+
+<footer>
+
+</footer>
+
